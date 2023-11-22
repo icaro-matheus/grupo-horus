@@ -1,0 +1,700 @@
+html{
+  height: auto;
+  width: 100%;
+}
+body{ 
+  overflow-x: hidden;
+  height: auto;
+  width: 100%;
+}
+.cor-navegacao{
+  background-color: #ff9900;
+  width: 1000%;
+  height: 50px;
+}
+
+.menu img{
+  width: 20%;
+  margin-left: 25%;
+}
+
+.icone{
+  display: inline;
+  float: left;
+  }
+
+.menuPrincipal h1{
+padding-left: 47%;
+padding-top: 3%;
+font-family: 'Pacifico', cursive;
+}
+.menuPrincipal p{
+  padding-left: 44.5%;
+}
+
+#menu {
+  z-index: 2;
+}
+
+#menu-bar {
+  width: 20px;
+  height: 20px;
+  margin: 20px 200px 20px 20px;
+  cursor: pointer;
+}
+
+.bar {
+  height: 5px;
+  width: 100%;
+  background-color: #1C1C1C;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.nav {
+  transition: 0.3s ease;
+  display: none;
+}
+
+.nav ul {
+  padding: 0 22px;
+}
+
+.nav li {
+  list-style: none;
+  padding: 12px 0;
+}
+
+.nav li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.menu-bg, #menu {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, #ff9900, #ff9900);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.change {
+  display: block;
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(-60%,-30%);
+}
+hr{
+  width: 25%;
+  height: 0.5px;
+  background-color: #ff9900;
+}
+
+.secundario{
+text-align: center;
+padding-top: 3%;
+font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  padding-top: 3%;
+}
+
+.carousel-slide{
+  padding-left: 3%;
+  
+}
+
+div.menu-bar ul ul {
+  display: none;
+}
+
+div.menu-bar li:hover > ul {
+  display: block;
+}
+
+div.container p-4{
+  text-align: center;
+}
+
+.mb-4{
+  text-align: center;
+}
+.git{
+  color: black;
+}
+.list-group{
+  margin-top: 5%;
+  font-family: 'Roboto', sans-serif;
+  display: inline flex;
+}
+
+.item{
+  color: black;
+}
+
+.item03{
+  margin-bottom: 10%;
+  color: black;
+}
+
+.title-intro{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.texto-intro{
+  text-align: center;
+  padding-top: 2%;
+}
+
+footer{
+  margin-top: 5%;
+  background-color: #ff9900;
+  position: static;
+  width: 1000%;
+  height: auto;
+  bottom:0;
+  left:0;
+}
+
+.image{
+  display: flex;
+  width: 30%;
+  height:20px;
+}
+
+.carousel-inner{
+  height: 700px;
+  width: 700px;
+  margin-left: 10%;
+  color: black;
+  text-align: left;
+  position: absolute;
+  padding-top: 2%;
+}
+
+.conteudo{
+  margin-left: 10%;
+  margin-bottom: 5%;
+  display: flex;
+  margin-top: 25%;
+}
+
+.col-sm{
+  padding-right: 15%;
+  text-align: center;
+}
+
+.card-img-top{
+  border-radius: 10px;
+}
+
+.title-secundarias{
+  margin-left: 33%;
+  margin-top: 3%;
+}
+
+.card-quarteto{
+  margin-left: 5%;
+  margin-right: 3%;
+  margin-top: 5%;
+}
+
+.btn-primary{
+  background-color: #ff9900;
+  border-color: #ff9900;
+}
+
+.fa-instagram{
+  width: 180px;
+}
+
+.page-equipe{
+  background-color: #ff9900;
+  border-color: #ff9900;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.col-sm-famosos{
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.title-secundarias-lolita{
+  margin-left: 28%;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.title-secundarias-marilia{
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 25%;
+}
+
+.title-secundarias-neymar{
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 20%;
+}
+
+.title-secundarias-ciencias{
+margin-left: 23%;
+margin-top: 3%;
+}
+
+.title-secundarias-neuralink{
+  margin-left: 30%;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.title-secundarias-nokia{
+  margin-left: 26%;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.title-secundarias-brasileirao{
+  margin-left: 15%;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.title-secundarias-guisantos{
+  margin-left: 0%;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.conteudo-secundarias{
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.col-secundarias{
+  margin-right: none;
+}
+
+.card-img-top-secundarias{
+  max-width: 70%;
+  margin-left: 25%;
+  margin-top: 5%;
+  border-radius: 10px;
+  position: static;
+  margin-right: none;
+}
+
+.col-conteudo-secundarias{
+  position: absolute;
+  margin-left: 25%;
+  margin-right: 8%;
+  margin-top: 5%;
+  text-align: justify;
+}
+
+.conteudo-secundarias{
+  position: absolute;
+  margin-left: 0;
+  margin-right: 400px;
+  text-align: justify;
+  }
+
+.row-video{
+  Margin-top: 5%;
+  margin-left: 10%;
+  text-align: center;
+  
+}
+
+.row-video-ciencia{
+  Margin-top: 15%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.row-video-cobol{
+  Margin-top: 25%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.title-secundarias-amazonia{
+  margin-left: 22%;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.row-secundarias{
+  position: static;
+  margin-left: 20%;
+  margin-top: 5%,
+}
+
+.col-conteudo-secundarias-carrossel{
+  position: static;
+  margin-left: 5%;
+  margin-top: 2%;
+  Margin-right:5%;
+}
+
+.title-secundarias-equipe{
+  width: auto;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+
+.card-equipe-livia{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card-equipe1{
+margin-right: 10%;
+}
+
+.card-equipe{
+  margin-right: 8%;
+  width: 10%;
+  height: 10%;
+}
+
+.row-livia{
+  margin-top: 2%;
+  margin-left: 45%;
+}
+
+
+.row-curriculo{
+  margin-top: 2%;
+  margin-left: 35%;
+ }
+
+
+.Curriculo, .links{
+  color: black;
+  margin-right: 5%;
+}
+
+.flex{
+  display:flex;
+}
+.card-quarteto {
+  margin-left: 50px;
+}
+.row-video-cobol {
+  margin-top: 500px;
+}
+.row-video-ciencia{
+  margin-top: 300px;
+}
+.col-conteudo-secundarias1{
+  height: auto;
+  width: 100%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 15%;
+ text-align: justify;
+  }
+  .col-secundarias1{
+    margin-right: none;
+    text-align: center;
+    margin-left: 5%;
+  }
+  .row-projeto-livia {
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-right: 15%;
+    text-align: justify;
+  }
+
+.card-equipe{
+ margin-right: 5%;
+}
+
+.row-equipe{
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.card-img-top-secundarias2 {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  margin-left: 130px;
+}
+.row-video1{
+  Margin-top: 5%;
+  margin-left: 10%;
+  text-align: center;
+} 
+.row-video-ciencia1{
+  margin-top: 250px;
+  margin-left: 450px;
+}
+.row-video-ciencia1 p{
+  margin-left: 200px;
+}
+
+.title-secundarias-ciencias1{
+  margin-left: 23%;
+  margin-top: 5%;
+}
+
+
+@media screen and (max-width:1020px){
+
+  .carousel-inner{
+    margin-left: -150px;
+    height: 500px;
+    width: 500px;
+    color: black;
+    text-align: center;
+  }
+
+    body{ 
+      overflow-x: hidden;
+      height: auto;
+      width: 100%;
+    }
+  
+  .flex{
+    flex-direction: column;
+    margin-top: -200px;
+    margin-right:-200px;
+  }
+  
+  .flex h2{
+    margin-left: -250px ;
+  }
+  .flex h5{
+    margin-left: -50px ;
+  }
+  .flex p{
+    margin-left: -50px ;
+  }
+  .list-group{
+    margin-left: -200px;
+  }
+  .col{
+    padding-top: 500px;
+    padding: 300px 4%;
+  
+  }
+    .bar {
+      display: block;
+   }
+  .conteudo{
+    display:grid;
+    margin-top: -50px;
+    margin-left: 100px;
+  }
+  /*CABEÇALHO*/
+  .menuPrincipal{
+    margin-right: 100px;
+  }
+  .menuPrincipal p{
+    margin-right: -300px;
+  }
+hr {
+    width: 200px;
+    height: 0.5px;
+}
+.flex hr {
+  width: 200px;
+  height: 0.5px;
+  margin-left: -30px;
+}
+.title-secundarias-ciencias h1{
+  margin-left: -250px;
+}
+.card-quarteto{
+  margin-right: 100px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+html{
+  height: auto;
+  width: 100%;
+}
+.col-secundarias{
+  padding-top: 5%;
+}
+.col-conteudo-secundarias{
+  padding-top: 40%;
+  margin-left: 25%;
+  margin-right: 8%;
+  margin-top: 5%;
+  text-align: justify;
+}
+.card-img-top-secundarias{
+    max-width: 100%;
+    margin-left: 200px;
+    margin-top: 5%;
+    border-radius: 10px;
+    position: static;
+    margin-right: none;
+}
+.row-video-ciencia{
+  margin-top: 750px;
+}
+.title-secundarias-lolita{
+  margin-left: -125px;
+  text-align: center;
+  margin-top: 3%;
+}
+.title-secundarias-nokia{
+  
+  margin-left: -125px;
+  text-align: center;
+  margin-top: 3%;
+}
+.row-video-cobol {
+  margin-top: 1000px;
+}
+.title-secundarias{
+  margin-left: -50px;
+  margin-top: 3%;
+}
+.title-secundarias-amazonia{
+  margin-left: -200px;
+  margin-top: 3%;
+}
+.col-conteudo-secundarias1{
+  padding-top: 10%;
+  margin-left: 200px;
+  margin-right: 8%;
+  margin-top: 5%;
+  text-align: justify;
+}
+.row-projeto-livia{
+  margin-left: 150px;
+}
+.row-curriculo{
+  margin-left: -20px;
+}
+.col-secundarias1{
+  margin-right: none;
+  text-align: center;
+  margin-left: 40px;
+}
+.row-projeto-livia {
+  width: 500px;
+  margin-left: 100px;
+  margin-top: -1%;
+  margin-right: 15%;
+  text-align:justify;
+}
+.col-conteudo-secundarias1{
+  width: 600px;
+  margin-left: 100px;
+  margin-top: 5%;
+  margin-right: 15%;
+ text-align: justify;
+}
+.title-secundarias-equipe{
+  margin-left: -240px;
+}
+.card-equipe-livia {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.card-equipe1{
+  margin-left: 200px;}
+  .card-equipe{
+    margin-left: 200px;}
+.title-secundarias-brasileirao{
+  margin-left: -200px;
+}
+.title-secundarias-ciencias1{
+  margin-left:-200px
+}
+.title-secundarias-neymar{
+  margin-left:-200px
+}
+.col-conteudo-secundarias2{
+  padding-top:  2%;
+  width: 500px;
+  margin: 80px;
+}
+.title-secundarias-marilia {
+  margin-left: -150px;
+}
+
+.card-img-top-secundarias2 {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  margin-left: 200px;
+}
+.conteudo-secundarias2 {
+  padding-top: 6%;
+}
+.row-video1 {
+  margin-top: 400px; 
+}
+.conteudo-secundarias3{
+  margin-top: 200px;
+}
+.row-video-ciencia1{
+  margin-top: 500px;
+}
+.row-video-ciencia1 p{
+  margin-left: 200px;
+}
+.row-video2 {
+  margin-top: 600px;
+}
+.row-video2 p{
+  margin-left: 150px;
+}
